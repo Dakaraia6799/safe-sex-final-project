@@ -14,6 +14,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="java.js">
     <link href="https://fonts.googleapis.com/css?family=Anton|Lobster" rel="stylesheet">
 </head>
 
@@ -26,7 +27,7 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> <span class="light">Start</span> Bootstrap
+                    <i class="fa fa-play-circle"></i> <span class="light">Protect</span> Yourself
                 </a>
             </div>
 
@@ -54,7 +55,7 @@
     </nav>
     <header id="landing">
         <div class="text-vertical-center">
-        <h2 id="landingslogan"> The right selection, is to protect your erection </h2>
+        <h2 class="landingtext"> The right selection, is to protect your erection </h2>
         </div>
     </header>
     <a  name="services"></a>
@@ -116,7 +117,18 @@
 
 
 </body>
+<script>
+    function collapseNavbar() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    }
+}
 
+$(window).scroll(collapseNavbar);
+$(document).ready(collapseNavbar);
+</script>
 
 
 </html>
