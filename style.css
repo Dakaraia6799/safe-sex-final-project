@@ -101,5 +101,11 @@ body {
   }
 }
 blockquote{
-  border-left: 10px solid #ccc;
+  border-left: 10px solid #c69b45;
+}
+.jumbotron{
+  color: #c69b45;
+}
+#quote{
+  color
 }
