@@ -109,3 +109,6 @@ blockquote{
 #quote, #statjumbo{
   color: black;
 }
+body{
+  background: linear-gradient(to right, #c69b45, white);
+}
