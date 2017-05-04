@@ -96,7 +96,7 @@ body {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: Black;
+    background: #2d2310;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
@@ -109,6 +109,9 @@ blockquote{
 #quote, #statjumbo{
   color: black;
 }
+#quote, #protectionjumbo{
+  color: black;
+}
 body{
-  background: linear-gradient(to right, #c69b45, white);
+  background: linear-gradient(to right, #c69b45, #2d2310);
 }
