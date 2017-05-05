@@ -113,5 +113,11 @@ blockquote{
   color: black;
 }
 body{
-  background: linear-gradient(to right, #c69b45, #2d2310);
+  background: linear-gradient(to right, #c69b45, white);
+}
+.preggostats{
+  color: black;
+  font-family:times ;
+  font-size:20px;
+  
 }
