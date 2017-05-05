@@ -23,6 +23,10 @@ body {
   font-family: 'Lobster', cursive;
   font-size: 60px;
 }
+.landingtext2 {
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -120,4 +124,12 @@ body{
   font-family:times ;
   font-size:20px;
   
+}
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+#stistatchart{
+ text-align: center;
 }
