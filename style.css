@@ -23,10 +23,13 @@ body {
   font-family: 'Lobster', cursive;
   font-size: 60px;
 }
-.landingtext2 {
+
+h3{
   color: white;
   font-family: 'Lobster', cursive;
   font-size: 30px;
+}
+
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -100,36 +103,45 @@ body {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: #2d2310;
+    background: black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
-blockquote{
+
+blockquote {
   border-left: 10px solid #c69b45;
 }
-.jumbotron{
+
+.jumbotron {
   color: #c69b45;
 }
-#quote, #statjumbo{
+
+#quote,
+#statjumbo {
   color: black;
 }
-#quote, #protectionjumbo{
+
+#quote,
+#protectionjumbo {
   color: black;
 }
-body{
+
+body {
   background: linear-gradient(to right, #c69b45, white);
 }
-.preggostats{
+
+.preggostats {
   color: black;
-  font-family:times ;
-  font-size:20px;
-  
+  font-family: times;
+  font-size: 20px;
 }
-.img{
+
+.img {
   display: block;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
-#stistatchart{
- text-align: center;
+
+#stistatchart {
+  text-align: center;
 }
