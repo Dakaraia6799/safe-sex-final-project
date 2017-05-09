@@ -2,7 +2,7 @@
   display: table;
   width: 100%;
   height: 100%;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(paradise.jpg) no-repeat center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/paradise.jpg) no-repeat center;
   background-size: cover;
 }
 
