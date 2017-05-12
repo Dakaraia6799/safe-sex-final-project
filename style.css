@@ -179,17 +179,48 @@ footer .footer-below {
   padding: 25px 0;
   background-color: #c69b45;
 }
-.statpara{
+
+.statpara {
   color: black;
-  font-size:18px;
+  font-size: 18px;
 }
-#h3footer{
-  color:#c69b45;
+
+#h3footer {
+  color: #c69b45;
 }
-#h4footer{
-  color:white;
+
+#h4footer {
+  color: white;
   font-family: lobster;
 }
-#location{
+
+#location {
   font-family: anton;
+}
+
+@media(min-width:768px) {
+  .landingtext {
+    font-size: 60px
+  }
+  #landingh3 {
+    font-size: 30px;
+  }
+}
+
+@media(min-width:992px) {
+  .landingtext {
+    font-size: 70px;
+  }
+  #landingh3 {
+    font-size: 45px;
+  }
+}
+
+@media(min-width:1200px) {
+  .landingtext {
+    font-size: 80px;
+  }
+  #landingh3 {
+    font-size: 55px;
+  }
 }
