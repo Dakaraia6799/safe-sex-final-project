@@ -183,3 +183,13 @@ footer .footer-below {
   color: black;
   font-size:18px;
 }
+#h3footer{
+  color:#c69b45;
+}
+#h4footer{
+  color:white;
+  font-family: lobster;
+}
+#location{
+  font-family: anton;
+}
